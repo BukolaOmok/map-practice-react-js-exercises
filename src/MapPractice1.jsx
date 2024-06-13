@@ -4,12 +4,14 @@ export default function MapPractice1() {
     const emojisArray = useEmojiGenerator();
     console.log("emojisArray", emojisArray);
 
+    const emojiDisplay = emojisArray.map(emoji => {
+      return  <>{emoji}</>;
+    });
+
     return (
         <div className="mapPractice">
             <h2>Map Practice 1</h2>
-            <div className="emojiList">
-                This is where your emojis need to go! (See expected1.html)
-            </div>
+            <div className="emojiList"> {emojiDisplay} </div>
         </div>
     );
 }
