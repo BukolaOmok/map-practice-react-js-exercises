@@ -6,7 +6,7 @@ export default function MapPractice1() {
 
     const emojiDisplay = emoji => {
         return (
-            <div>{emoji}</div> 
+            <div className="emoji">{emoji}</div> 
         )
     };
 

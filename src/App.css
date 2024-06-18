@@ -10,7 +10,7 @@
 .emojiList {
     display: flex;
     flex-direction: row;
-    gap: 8rem;
+    gap: 4rem;
     text-align: center;
 }
 
